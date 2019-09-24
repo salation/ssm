@@ -19,6 +19,7 @@ public class StudentController {
     public String Get() {
         List<Student> students = service.selectByCondition(new Student());
         String jsonResult = com.alibaba.fastjson.JSON.toJSONString(students);
+        String s = "12121";
         return jsonResult;
     }
 }
