@@ -10,6 +10,6 @@ public class RequestTestController {
 
     @GetMapping()
     public String TestString(){
-        return "this is a test string. Time:2018-10-29 20:42:00";
+        return "dev:this is a test string. Time:2018-10-29 20:42:00";
     }
 }
